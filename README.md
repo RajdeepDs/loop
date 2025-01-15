@@ -14,11 +14,15 @@ Loop is a modern communication platform designed specifically for asynchronous t
 
 ## Contributing
 
-We welcome contributions from the community. Please read our [Contributing Guidelines](https://github.com/RajdeepDs/loop/.github/CONTRIBUTING.md) for more information.
+We welcome contributions from the community. Please read our [Contributing Guidelines](https://github.com/RajdeepDs/loop/blob/main/.github/CONTRIBUTING.md) for more information.
 
 ## License
 
 Loop is open-source software licensed under the GNU Affero General Public License Version 3 (AGPLv3) or any later version. You can [find it here](https://github.com/RajdeepDs/loop/blob/main/LICENSE).
+
+## Repo Activity
+
+![Alt](https://repobeats.axiom.co/api/embed/50963ee134d21c690384196630ad1793114b53dd.svg "Repobeats analytics image")
 
 ## Contact
 
