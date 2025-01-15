@@ -1,7 +1,7 @@
-import * as React from "react"
-import { cn } from "@repo/design-system/lib/utils"
-import { ButtonProps, buttonVariants } from "@repo/design-system/components/ui/button"
+import { ButtonProps, buttonVariants } from "@loop/design-system/components/ui/button"
+import { cn } from "@loop/design-system/lib/utils"
 import { ChevronLeftIcon, ChevronRightIcon, DotsHorizontalIcon } from "@radix-ui/react-icons"
+import * as React from "react"
 
 const Pagination = ({ className, ...props }: React.ComponentProps<"nav">) => (
   <nav
@@ -106,11 +106,7 @@ const PaginationEllipsis = ({
 PaginationEllipsis.displayName = "PaginationEllipsis"
 
 export {
-  Pagination,
-  PaginationContent,
-  PaginationLink,
-  PaginationItem,
-  PaginationPrevious,
-  PaginationNext,
-  PaginationEllipsis,
+    Pagination,
+    PaginationContent, PaginationEllipsis, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious
 }
+

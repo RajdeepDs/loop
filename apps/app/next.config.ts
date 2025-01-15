@@ -1,7 +1,7 @@
 import { env } from '@/env';
-import { withToolbar } from '@repo/feature-flags/lib/toolbar';
-import { config, withAnalyzer } from '@repo/next-config';
-import { withLogtail, withSentry } from '@repo/observability/next-config';
+import { withToolbar } from '@loop/feature-flags/lib/toolbar';
+import { config, withAnalyzer } from '@loop/next-config';
+import { withLogtail, withSentry } from '@loop/observability/next-config';
 import type { NextConfig } from 'next';
 
 let nextConfig: NextConfig = withToolbar(withLogtail({ ...config }));

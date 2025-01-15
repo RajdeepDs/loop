@@ -1,25 +1,29 @@
-# next-forge
+# Loop
 
-**Production-grade Turborepo template for Next.js apps.**
+Loop is a modern communication platform designed specifically for asynchronous team members working across the globe. It is built to streamline communication, enhance collaboration, and foster transparency within development teams, all while focusing on simplicity and productivity.
 
-<div>
-  <img src="https://img.shields.io/npm/dy/next-forge" alt="" />
-  <img src="https://img.shields.io/npm/v/next-forge" alt="" />
-  <img src="https://img.shields.io/github/license/haydenbleasel/next-forge" alt="" />
-</div>
+## Features
 
-[next-forge](https://github.com/haydenbleasel/next-forge) is a [Next.js](https://nextjs.org/) project boilerplate for modern web application. It is designed to be a comprehensive starting point for new apps, providing a solid, opinionated foundation with a minimal amount of configuration.
+### Core Features
 
-Clone the repo using:
+- **Asynchronous Communication:** Facilitate seamless discussions and updates across time zones.
 
-```sh
-npx next-forge@latest init
-```
+- **Team Management:** Organize your team into groups, projects, and topics for structured communication.
 
-Then read the [docs](https://docs.next-forge.com) for more information.
+- **Integration-Friendly:** Works with tools like GitHub, Linear, and other platforms for issue tracking and project management.
 
-<a href="https://github.com/haydenbleasel/next-forge/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=haydenbleasel/next-forge" />
-</a>
+## Contributing
 
-Made with [contrib.rocks](https://contrib.rocks).
+We welcome contributions from the community. Please read our [Contributing Guidelines](https://github.com/RajdeepDs/loop/.github/CONTRIBUTING.md) for more information.
+
+## License
+
+Loop is open-source software licensed under the GNU Affero General Public License Version 3 (AGPLv3) or any later version. You can [find it here](https://github.com/RajdeepDs/loop/blob/main/LICENSE).
+
+## Contact
+
+For questions, suggestions, or support, feel free to reach out:
+
+- **Email:** [rajdeepds626@gmail.com](mailto:rajdeepds626@gmail.com)
+
+Stay in the loop, asynchronously!

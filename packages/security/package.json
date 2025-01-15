@@ -1,5 +1,5 @@
 {
-  "name": "@repo/security",
+  "name": "@loop/security",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -14,7 +14,7 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
+    "@loop/typescript-config": "workspace:*",
     "typescript": "^5.7.2"
   }
 }

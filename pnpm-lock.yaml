@@ -27,7 +27,7 @@ importers:
       '@biomejs/biome':
         specifier: 1.9.4
         version: 1.9.4
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:packages/typescript-config
       '@turbo/gen':
@@ -48,28 +48,28 @@ importers:
 
   apps/api:
     dependencies:
-      '@repo/analytics':
+      '@loop/analytics':
         specifier: workspace:*
         version: link:../../packages/analytics
-      '@repo/auth':
+      '@loop/auth':
         specifier: workspace:*
         version: link:../../packages/auth
-      '@repo/database':
+      '@loop/database':
         specifier: workspace:*
         version: link:../../packages/database
-      '@repo/design-system':
+      '@loop/design-system':
         specifier: workspace:*
         version: link:../../packages/design-system
-      '@repo/next-config':
+      '@loop/next-config':
         specifier: workspace:*
         version: link:../../packages/next-config
-      '@repo/observability':
+      '@loop/observability':
         specifier: workspace:*
         version: link:../../packages/observability
-      '@repo/payments':
+      '@loop/payments':
         specifier: workspace:*
         version: link:../../packages/payments
-      '@repo/testing':
+      '@loop/testing':
         specifier: workspace:*
         version: link:../../packages/testing
       '@sentry/nextjs':
@@ -97,7 +97,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@types/node':
@@ -121,43 +121,43 @@ importers:
       '@prisma/client':
         specifier: 6.1.0
         version: 6.1.0(prisma@6.1.0)
-      '@repo/analytics':
+      '@loop/analytics':
         specifier: workspace:*
         version: link:../../packages/analytics
-      '@repo/auth':
+      '@loop/auth':
         specifier: workspace:*
         version: link:../../packages/auth
-      '@repo/collaboration':
+      '@loop/collaboration':
         specifier: workspace:*
         version: link:../../packages/collaboration
-      '@repo/database':
+      '@loop/database':
         specifier: workspace:*
         version: link:../../packages/database
-      '@repo/design-system':
+      '@loop/design-system':
         specifier: workspace:*
         version: link:../../packages/design-system
-      '@repo/feature-flags':
+      '@loop/feature-flags':
         specifier: workspace:*
         version: link:../../packages/feature-flags
-      '@repo/next-config':
+      '@loop/next-config':
         specifier: workspace:*
         version: link:../../packages/next-config
-      '@repo/notifications':
+      '@loop/notifications':
         specifier: workspace:*
         version: link:../../packages/notifications
-      '@repo/observability':
+      '@loop/observability':
         specifier: workspace:*
         version: link:../../packages/observability
-      '@repo/security':
+      '@loop/security':
         specifier: workspace:*
         version: link:../../packages/security
-      '@repo/seo':
+      '@loop/seo':
         specifier: workspace:*
         version: link:../../packages/seo
-      '@repo/tailwind-config':
+      '@loop/tailwind-config':
         specifier: workspace:*
         version: link:../../packages/tailwind-config
-      '@repo/webhooks':
+      '@loop/webhooks':
         specifier: workspace:*
         version: link:../../packages/webhooks
       '@sentry/nextjs':
@@ -194,10 +194,10 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/testing':
+      '@loop/testing':
         specifier: workspace:*
         version: link:../../packages/testing
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@testing-library/dom':
@@ -239,7 +239,7 @@ importers:
       '@react-email/components':
         specifier: 0.0.31
         version: 0.0.31(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@repo/email':
+      '@loop/email':
         specifier: workspace:*
         version: link:../../packages/email
       react:
@@ -249,7 +249,7 @@ importers:
         specifier: 3.0.4
         version: 3.0.4(@opentelemetry/api@1.9.0)(bufferutil@4.0.9)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@types/node':
@@ -264,7 +264,7 @@ importers:
 
   apps/storybook:
     dependencies:
-      '@repo/design-system':
+      '@loop/design-system':
         specifier: workspace:*
         version: link:../../packages/design-system
       lucide-react:
@@ -283,7 +283,7 @@ importers:
       '@chromatic-com/storybook':
         specifier: ^3.2.3
         version: 3.2.3(react@19.0.0)(storybook@8.4.7(bufferutil@4.0.9)(prettier@3.3.3))
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@storybook/addon-essentials':
@@ -349,34 +349,34 @@ importers:
       '@radix-ui/react-icons':
         specifier: ^1.3.2
         version: 1.3.2(react@19.0.0)
-      '@repo/cms':
+      '@loop/cms':
         specifier: workspace:*
         version: link:../../packages/cms
-      '@repo/design-system':
+      '@loop/design-system':
         specifier: workspace:*
         version: link:../../packages/design-system
-      '@repo/email':
+      '@loop/email':
         specifier: workspace:*
         version: link:../../packages/email
-      '@repo/feature-flags':
+      '@loop/feature-flags':
         specifier: workspace:*
         version: link:../../packages/feature-flags
-      '@repo/next-config':
+      '@loop/next-config':
         specifier: workspace:*
         version: link:../../packages/next-config
-      '@repo/observability':
+      '@loop/observability':
         specifier: workspace:*
         version: link:../../packages/observability
-      '@repo/rate-limit':
+      '@loop/rate-limit':
         specifier: workspace:*
         version: link:../../packages/rate-limit
-      '@repo/security':
+      '@loop/security':
         specifier: workspace:*
         version: link:../../packages/security
-      '@repo/seo':
+      '@loop/seo':
         specifier: workspace:*
         version: link:../../packages/seo
-      '@repo/tailwind-config':
+      '@loop/tailwind-config':
         specifier: workspace:*
         version: link:../../packages/tailwind-config
       '@sentry/nextjs':
@@ -425,7 +425,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@types/node':
@@ -468,7 +468,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
@@ -508,7 +508,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
@@ -529,7 +529,7 @@ importers:
       '@clerk/themes':
         specifier: ^2.2.3
         version: 2.2.3
-      '@repo/tailwind-config':
+      '@loop/tailwind-config':
         specifier: workspace:*
         version: link:../tailwind-config
       '@t3-oss/env-nextjs':
@@ -551,7 +551,7 @@ importers:
       '@clerk/types':
         specifier: ^4.40.0
         version: 4.40.0
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
@@ -582,7 +582,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
@@ -622,7 +622,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
@@ -662,7 +662,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
@@ -770,13 +770,13 @@ importers:
       '@radix-ui/react-tooltip':
         specifier: ^1.1.6
         version: 1.1.6(@types/react-dom@19.0.2(@types/react@19.0.2))(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@repo/analytics':
+      '@loop/analytics':
         specifier: workspace:*
         version: link:../analytics
-      '@repo/auth':
+      '@loop/auth':
         specifier: workspace:*
         version: link:../auth
-      '@repo/observability':
+      '@loop/observability':
         specifier: workspace:*
         version: link:../observability
       class-variance-authority:
@@ -840,7 +840,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
@@ -883,7 +883,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
@@ -901,13 +901,13 @@ importers:
 
   packages/feature-flags:
     dependencies:
-      '@repo/analytics':
+      '@loop/analytics':
         specifier: workspace:*
         version: link:../analytics
-      '@repo/auth':
+      '@loop/auth':
         specifier: workspace:*
         version: link:../auth
-      '@repo/design-system':
+      '@loop/design-system':
         specifier: workspace:*
         version: link:../design-system
       '@t3-oss/env-nextjs':
@@ -929,7 +929,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
@@ -963,7 +963,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       next:
@@ -988,7 +988,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
@@ -1022,7 +1022,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
@@ -1053,7 +1053,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       typescript:
@@ -1075,7 +1075,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       typescript:
@@ -1097,7 +1097,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       typescript:
@@ -1116,7 +1116,7 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2(typescript@5.7.2)
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/lodash.merge':
@@ -1147,7 +1147,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
 
@@ -1163,7 +1163,7 @@ importers:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@3.4.17(ts-node@10.9.2(@swc/core@1.3.101(@swc/helpers@0.5.15))(@types/node@22.10.5)(typescript@5.7.2)))
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       tailwindcss:
@@ -1183,7 +1183,7 @@ importers:
 
   packages/webhooks:
     dependencies:
-      '@repo/auth':
+      '@loop/auth':
         specifier: workspace:*
         version: link:../auth
       '@t3-oss/env-nextjs':
@@ -1196,7 +1196,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
-      '@repo/typescript-config':
+      '@loop/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       typescript:

@@ -1,22 +1,22 @@
 "use client"
 
-import * as React from "react"
+import { Button } from "@loop/design-system/components/ui/button"
+import { Input } from "@loop/design-system/components/ui/input"
+import { Separator } from "@loop/design-system/components/ui/separator"
+import { Sheet, SheetContent, SheetTitle } from "@loop/design-system/components/ui/sheet"
+import { Skeleton } from "@loop/design-system/components/ui/skeleton"
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipProvider,
+    TooltipTrigger,
+} from "@loop/design-system/components/ui/tooltip"
+import { useIsMobile } from "@loop/design-system/hooks/use-mobile"
+import { cn } from "@loop/design-system/lib/utils"
+import { ViewVerticalIcon } from "@radix-ui/react-icons"
 import { Slot } from "@radix-ui/react-slot"
 import { VariantProps, cva } from "class-variance-authority"
-import { useIsMobile } from "@repo/design-system/hooks/use-mobile"
-import { cn } from "@repo/design-system/lib/utils"
-import { Button } from "@repo/design-system/components/ui/button"
-import { Input } from "@repo/design-system/components/ui/input"
-import { Separator } from "@repo/design-system/components/ui/separator"
-import { Sheet, SheetContent, SheetTitle } from "@repo/design-system/components/ui/sheet"
-import { Skeleton } from "@repo/design-system/components/ui/skeleton"
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@repo/design-system/components/ui/tooltip"
-import { ViewVerticalIcon } from "@radix-ui/react-icons"
+import * as React from "react"
 
 const SIDEBAR_COOKIE_NAME = "sidebar:state"
 const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7
@@ -736,28 +736,29 @@ const SidebarMenuSubButton = React.forwardRef<
 SidebarMenuSubButton.displayName = "SidebarMenuSubButton"
 
 export {
-  Sidebar,
-  SidebarContent,
-  SidebarFooter,
-  SidebarGroup,
-  SidebarGroupAction,
-  SidebarGroupContent,
-  SidebarGroupLabel,
-  SidebarHeader,
-  SidebarInput,
-  SidebarInset,
-  SidebarMenu,
-  SidebarMenuAction,
-  SidebarMenuBadge,
-  SidebarMenuButton,
-  SidebarMenuItem,
-  SidebarMenuSkeleton,
-  SidebarMenuSub,
-  SidebarMenuSubButton,
-  SidebarMenuSubItem,
-  SidebarProvider,
-  SidebarRail,
-  SidebarSeparator,
-  SidebarTrigger,
-  useSidebar,
+    Sidebar,
+    SidebarContent,
+    SidebarFooter,
+    SidebarGroup,
+    SidebarGroupAction,
+    SidebarGroupContent,
+    SidebarGroupLabel,
+    SidebarHeader,
+    SidebarInput,
+    SidebarInset,
+    SidebarMenu,
+    SidebarMenuAction,
+    SidebarMenuBadge,
+    SidebarMenuButton,
+    SidebarMenuItem,
+    SidebarMenuSkeleton,
+    SidebarMenuSub,
+    SidebarMenuSubButton,
+    SidebarMenuSubItem,
+    SidebarProvider,
+    SidebarRail,
+    SidebarSeparator,
+    SidebarTrigger,
+    useSidebar
 }
+

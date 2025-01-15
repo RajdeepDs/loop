@@ -1,9 +1,9 @@
-import { authMiddleware } from '@repo/auth/middleware';
+import { authMiddleware } from '@loop/auth/middleware';
 import {
   noseconeMiddleware,
   noseconeOptions,
   noseconeOptionsWithToolbar,
-} from '@repo/security/middleware';
+} from '@loop/security/middleware';
 import { env } from './env';
 
 const securityHeaders = env.FLAGS_SECRET

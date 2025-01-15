@@ -1,6 +1,6 @@
-import { parseError } from '@repo/observability/error';
-import { clsx } from 'clsx';
+import { parseError } from '@loop/observability/error';
 import type { ClassValue } from 'clsx';
+import { clsx } from 'clsx';
 import { toast } from 'sonner';
 import { twMerge } from 'tailwind-merge';
 

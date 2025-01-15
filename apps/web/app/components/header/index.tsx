@@ -1,8 +1,8 @@
 'use client';
 
 import { env } from '@/env';
-import { ModeToggle } from '@repo/design-system/components/mode-toggle';
-import { Button } from '@repo/design-system/components/ui/button';
+import { ModeToggle } from '@loop/design-system/components/mode-toggle';
+import { Button } from '@loop/design-system/components/ui/button';
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -10,7 +10,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from '@repo/design-system/components/ui/navigation-menu';
+} from '@loop/design-system/components/ui/navigation-menu';
 import { Menu, MoveRight, X } from 'lucide-react';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -126,7 +126,7 @@ export const Header = () => {
             height={24}
             className="dark:invert"
           />
-          <p className="whitespace-nowrap font-semibold">next-forge</p>
+          <p className="whitespace-nowrap font-semibold">loop</p>
         </div>
         <div className="flex w-full justify-end gap-4">
           <Button variant="ghost" className="hidden md:inline" asChild>

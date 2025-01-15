@@ -1,9 +1,9 @@
 "use client"
 
-import * as React from "react"
-import * as RadioGroupPrimitive from "@radix-ui/react-radio-group"
-import { cn } from "@repo/design-system/lib/utils"
+import { cn } from "@loop/design-system/lib/utils"
 import { DotFilledIcon } from "@radix-ui/react-icons"
+import * as RadioGroupPrimitive from "@radix-ui/react-radio-group"
+import * as React from "react"
 
 const RadioGroup = React.forwardRef<
   React.ElementRef<typeof RadioGroupPrimitive.Root>,

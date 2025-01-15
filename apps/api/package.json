@@ -13,14 +13,14 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@repo/analytics": "workspace:*",
-    "@repo/auth": "workspace:*",
-    "@repo/database": "workspace:*",
-    "@repo/design-system": "workspace:*",
-    "@repo/next-config": "workspace:*",
-    "@repo/observability": "workspace:*",
-    "@repo/payments": "workspace:*",
-    "@repo/testing": "workspace:*",
+    "@loop/analytics": "workspace:*",
+    "@loop/auth": "workspace:*",
+    "@loop/database": "workspace:*",
+    "@loop/design-system": "workspace:*",
+    "@loop/next-config": "workspace:*",
+    "@loop/observability": "workspace:*",
+    "@loop/payments": "workspace:*",
+    "@loop/testing": "workspace:*",
     "@sentry/nextjs": "^8.47.0",
     "@t3-oss/env-nextjs": "^0.11.1",
     "next": "15.1.4",
@@ -31,7 +31,7 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
+    "@loop/typescript-config": "workspace:*",
     "@types/node": "22.10.5",
     "@types/react": "19.0.2",
     "@types/react-dom": "19.0.2",

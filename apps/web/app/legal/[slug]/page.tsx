@@ -1,10 +1,10 @@
 import { Sidebar } from '@/components/sidebar';
+import { legal } from '@loop/cms';
+import { Body } from '@loop/cms/components/body';
+import { Feed } from '@loop/cms/components/feed';
+import { TableOfContents } from '@loop/cms/components/toc';
+import { createMetadata } from '@loop/seo/metadata';
 import { ArrowLeftIcon } from '@radix-ui/react-icons';
-import { legal } from '@repo/cms';
-import { Body } from '@repo/cms/components/body';
-import { Feed } from '@repo/cms/components/feed';
-import { TableOfContents } from '@repo/cms/components/toc';
-import { createMetadata } from '@repo/seo/metadata';
 import type { Metadata } from 'next';
 import { draftMode } from 'next/headers';
 import Link from 'next/link';

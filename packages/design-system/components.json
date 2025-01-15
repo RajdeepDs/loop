@@ -10,10 +10,10 @@
     "cssVariables": true
   },
   "aliases": {
-    "components": "@repo/design-system/components",
-    "utils": "@repo/design-system/lib/utils",
-    "hooks": "@repo/design-system/hooks",
-    "lib": "@repo/design-system/lib",
-    "ui": "@repo/design-system/components/ui"
+    "components": "@loop/design-system/components",
+    "utils": "@loop/design-system/lib/utils",
+    "hooks": "@loop/design-system/hooks",
+    "lib": "@loop/design-system/lib",
+    "ui": "@loop/design-system/components/ui"
   }
 }

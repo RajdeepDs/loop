@@ -1,15 +1,15 @@
-import '@repo/design-system/styles/globals.css';
-import './styles/web.css';
-import { legal } from '@repo/cms';
-import { Feed } from '@repo/cms/components/feed';
-import { DesignSystemProvider } from '@repo/design-system';
-import { fonts } from '@repo/design-system/lib/fonts';
-import { cn } from '@repo/design-system/lib/utils';
-import { Toolbar } from '@repo/feature-flags/components/toolbar';
+import { legal } from '@loop/cms';
+import { Feed } from '@loop/cms/components/feed';
+import { Toolbar as CMSToolbar } from '@loop/cms/components/toolbar';
+import { DesignSystemProvider } from '@loop/design-system';
+import { fonts } from '@loop/design-system/lib/fonts';
+import { cn } from '@loop/design-system/lib/utils';
+import '@loop/design-system/styles/globals.css';
+import { Toolbar } from '@loop/feature-flags/components/toolbar';
 import type { ReactNode } from 'react';
 import { Footer } from './components/footer';
 import { Header } from './components/header';
-import { Toolbar as CMSToolbar } from '@repo/cms/components/toolbar';
+import './styles/web.css';
 
 type RootLayoutProperties = {
   readonly children: ReactNode;

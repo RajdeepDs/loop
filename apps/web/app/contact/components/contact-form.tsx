@@ -1,15 +1,15 @@
 'use client';
 
-import { Button } from '@repo/design-system/components/ui/button';
-import { Calendar } from '@repo/design-system/components/ui/calendar';
-import { Input } from '@repo/design-system/components/ui/input';
-import { Label } from '@repo/design-system/components/ui/label';
+import { Button } from '@loop/design-system/components/ui/button';
+import { Calendar } from '@loop/design-system/components/ui/calendar';
+import { Input } from '@loop/design-system/components/ui/input';
+import { Label } from '@loop/design-system/components/ui/label';
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@repo/design-system/components/ui/popover';
-import { cn } from '@repo/design-system/lib/utils';
+} from '@loop/design-system/components/ui/popover';
+import { cn } from '@loop/design-system/lib/utils';
 import { format } from 'date-fns';
 import { CalendarIcon, Check, MoveRight } from 'lucide-react';
 import { useState } from 'react';

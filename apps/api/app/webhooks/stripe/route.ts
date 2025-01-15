@@ -1,10 +1,10 @@
 import { env } from '@/env';
-import { analytics } from '@repo/analytics/posthog/server';
-import { clerkClient } from '@repo/auth/server';
-import { parseError } from '@repo/observability/error';
-import { log } from '@repo/observability/log';
-import { stripe } from '@repo/payments';
-import type { Stripe } from '@repo/payments';
+import { analytics } from '@loop/analytics/posthog/server';
+import { clerkClient } from '@loop/auth/server';
+import { parseError } from '@loop/observability/error';
+import { log } from '@loop/observability/log';
+import type { Stripe } from '@loop/payments';
+import { stripe } from '@loop/payments';
 import { headers } from 'next/headers';
 import { NextResponse } from 'next/server';
 
